@@ -10,7 +10,7 @@ public:
 	Obstacle()
 	{
 	}
-	char generatesTheObstacles1(char** map, int a, int b)
+	char generatesTheObstacles(char** map, int a, int b)
 	{
 		map[a + 1][b + 1] = ' ';
 		map[a + 1][b + 1] = ' ';
@@ -29,17 +29,6 @@ public:
 		map[a][b] = obstacle;
 		map[a][b + 2] = obstacle;
 		return **map,a;
-	}
-	char generatesTheObstacles2(char** map, int a, int b)
-	{
-		map[a][b] = obstacle;
-		map[a][b + 1] = obstacle;
-		map[a][b - 1] = obstacle;
-		map[a + 1][b - 1] = obstacle;
-		map[a + 1][b + 1] = obstacle;
-		map[a - 1][b - 1] = obstacle;
-		map[a - 1][b + 1] = obstacle;
-		return **map;
 	}
 	char getObstacle()
 	{

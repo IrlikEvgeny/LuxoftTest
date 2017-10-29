@@ -53,7 +53,7 @@ int main(int argc, char*argv[])
 		**map = cars.defaultLocation(map, x, y);
 		
 		//generates the obstacles
-		**map,a=obstacles.generatesTheObstacles1(map, a, b);
+		**map,a=obstacles.generatesTheObstacles(map, a, b);
 		if (a > 20)
 		{
 			a = 0;
