@@ -1,0 +1,23 @@
+﻿Сборка начата 31.10.2017 0:01:12.
+     1>Проект "c:\Users\docca\OneDrive\документы\visual studio 2013\Projects\Luxoft\Luxoft\Luxoft.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         I:\Program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\map.h(11): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\map.h(13): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\map.h(25): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\map.h(27): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\obstacle.h(35): warning C4309: инициализация: усечение константного значения
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\car.h(82): warning C4309: инициализация: усечение константного значения
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\car.h(83): warning C4309: инициализация: усечение константного значения
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\game.h(18): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\car.h(47): warning C4715: Car::movesLeft: значение возвращается не при всех путях выполнения
+     1>c:\users\docca\onedrive\документы\visual studio 2013\projects\luxoft\luxoft\car.h(72): warning C4715: Car::movesRight: значение возвращается не при всех путях выполнения
+       Link:
+         I:\Program\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\docca\onedrive\документы\visual studio 2013\Projects\Luxoft\Debug\Luxoft.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\docca\onedrive\документы\visual studio 2013\Projects\Luxoft\Debug\Luxoft.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\docca\onedrive\документы\visual studio 2013\Projects\Luxoft\Debug\Luxoft.lib" /MACHINE:X86 Debug\main.obj
+         Luxoft.vcxproj -> c:\users\docca\onedrive\документы\visual studio 2013\Projects\Luxoft\Debug\Luxoft.exe
+     1>Сборка проекта "c:\Users\docca\OneDrive\документы\visual studio 2013\Projects\Luxoft\Luxoft\Luxoft.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.62
